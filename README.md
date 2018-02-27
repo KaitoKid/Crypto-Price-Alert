@@ -4,7 +4,8 @@ Chatbot built with Microsoft Bot Framework to subscribe to crypto price alerts
 ## Prerequisites
 - Download NodeJS LTS: https://nodejs.org/en/
 - Download Microsoft Bot emulator: https://github.com/Microsoft/BotFramework-Emulator/releases
-- Set up a Microsoft account with Azure: https://distributr.heroku.com
+- Create a Microsoft account. **DO NOT USE YOUR BERKELEY EMAIL**: https://account.microsoft.com/account
+- Set up a Microsoft account with Azure: https://distributr.io with the promo code `GOBEARS`
 - Clone this directory with `git clone https://github.com/KaitoKid/Crypto-Price-Alert`
 - While in the directory, run `npm install` to install all of the necessary packages
 
