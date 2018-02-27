@@ -33,7 +33,6 @@ function runSubscription(coin, alertPrice, session){
   let priceOrigin = "https://min-api.cryptocompare.com/data/price?fsym=" + coin + "&tsyms=USD";
   let message = 'You have subscribed to ' + coin + ' price alerts! You will be notified if the price drops below ' + alertPrice + ' USD';
   session.send(message);
-  console.log(priceOrigin);
 
   // test subscription
   fetch(priceOrigin)
